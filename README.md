@@ -12,8 +12,11 @@ passwd openvpn
 https://****:943/admin
 
 2、破解
+
 cp pyovpn-2.0-py2.7.egg /usr/local/openvpn_as/lib/python2.7/site-packages/
+
 cd /usr/local/openvpn_as/bin
+
 ./ovpn-init
 
 如报错找不到相关模块，编辑_ovpn-init 注解掉即可
